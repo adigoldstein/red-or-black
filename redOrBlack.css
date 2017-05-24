@@ -1,0 +1,108 @@
+.hidden {
+  display: none;
+}
+.wrapper {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  flex-direction: column;
+}
+
+.header {
+  background-color: greenyellow;
+  display: flex;
+  justify-content: center;
+}
+
+
+.red {
+  color: red;
+}
+
+.main {
+  position: relative;
+  background: url('assets/images/RED_or_BLACK_PC_bg.jpg');
+  width: 100%;
+  height: 100vh;
+  background-size: cover ;
+  background-repeat: no-repeat;
+  background-position:  50% 0 ;
+  display: flex;
+  justify-content: center;
+}
+
+ .main h1 {
+   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;;
+   color: white;
+   font-size:30px;
+ }
+
+ /*****Steps******/
+
+.step15 {
+  position: absolute;
+  top:-2.9%;
+}
+
+.step20 {
+  position: absolute;
+  top:-2.3%;
+}
+
+.step30 {
+  position: absolute;
+  top:-2.2%;
+}
+
+.step50 {
+  position: absolute;
+  top:-2.2%;
+}
+
+/*****Player Panel*******/
+
+.red-btn, .red-selected, .red-disabled{
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  bottom: 0;
+  left: 31.5vw;
+}
+
+
+.black-btn, .black-selected, .black-disabled{
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  bottom: 0;
+  right: 31.5vw;
+}
+
+
+.lives2, .lives1, .lives0 {
+  height: 55px;
+  position: absolute;
+  bottom: 12px;
+  left: 23Vw;
+}
+.auto-play {
+  height: 80px;
+  position: absolute;
+  bottom: -3px;
+  right: 25vw;
+}
+
+.card {
+  height: 150px;
+  position: absolute;
+  bottom: 5px;
+  left: 42%;
+}
+img .card {
+  transition: all 1s linear;
+}
+.card-moved {
+  transform: translateX(125px)
+}
