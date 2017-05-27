@@ -1,12 +1,25 @@
+
+html {
+  box-sizing: border-box;
+
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .hidden {
   display: none;
 }
+
 .wrapper {
   background-color: black;
   display: flex;
   justify-content: center;
   width: 100%;
-
   flex-direction: column;
 }
 
@@ -16,14 +29,20 @@
   justify-content: center;
 }
 
-
 .red {
   color: red;
 }
+.tutorial {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 800;
+  bottom: -7px;
 
+}
 .main {
   position: relative;
-  background: url('assets/images/RED_or_BLACK_PC_bg.jpg');
+  background: url('images/RED_or_BLACK_PC_bg.jpg');
   width: 100%;
   height: 100vh;
   background-size: cover ;
@@ -39,24 +58,39 @@
    font-size:30px;
  }
 
+ .loading-bg {
+   width: 100%;
+   height: 100%;
+   background-color:  rgba(0, 0, 0, 0.8);
+   z-index: 1000;
+   display: flex;
+   justify-content: center;
+   position: absolute;
+ }
+ .loading-chip {
+   height: 100px;
+   align-self: center;
+
+ }
+
  /*****Steps******/
 
-.step15 {
+.step2 {
   position: absolute;
   top:-2.9%;
 }
 
-.step20 {
+.step3 {
   position: absolute;
   top:-2.3%;
 }
 
-.step30 {
+.step4 {
   position: absolute;
   top:-2.2%;
 }
 
-.step50 {
+.step5 {
   position: absolute;
   top:-2.2%;
 }
@@ -87,10 +121,17 @@
   bottom: 12px;
   left: 23Vw;
 }
+
+.info {
+  height: 65px;
+  position: absolute;
+  bottom: 6px;
+  left: 18.5vw;
+}
 .auto-play {
   height: 80px;
   position: absolute;
-  bottom: -3px;
+  bottom: -6px;
   right: 25vw;
 }
 
@@ -105,4 +146,36 @@ img .card {
 }
 .card-moved {
   transform: translateX(125px)
+}
+
+.card-v, .card-x {
+  height: 150px;
+  position: absolute;
+  bottom: 5px;
+  right: 42%;
+  z-index: 30;
+}
+
+.game-over {
+  width: 500px;
+  height: 150px;
+  background-color: black;
+  border-radius: 15px;
+  z-index: 50;
+  color: white;
+
+}
+
+.you-lose {
+  font-size:20px;
+  align-self: center;
+
+}
+
+.play-again-btn {
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
 }
