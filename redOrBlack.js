@@ -147,21 +147,27 @@ function updateMeterAndLives(step,lives) {
   switch (step) {
     case 2: {
       const step2 = document.querySelector('.step2');
-
       step2.classList.remove('hidden');
+      console.info('step2happen');
       break
     }
     case 3: {
+      const step2 = document.querySelector('.step2');
+      step2.classList.add('hidden');
       const step3 = document.querySelector('.step3');
       step3.classList.remove('hidden');
       break
     }
     case 4: {
+      const step3 = document.querySelector('.step3');
+      step3.classList.add('hidden');
       const step4 = document.querySelector('.step4');
       step4.classList.remove('hidden');
       break
     }
     case 5: {
+      const step4 = document.querySelector('.step4');
+      step4.classList.add('hidden');
       const step5 = document.querySelector('.step5');
       step5.classList.remove('hidden');
       break

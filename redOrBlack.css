@@ -77,22 +77,22 @@ html, body {
 
 .step2 {
   position: absolute;
-  top:-2.9%;
+  top: 2.1%;
 }
 
 .step3 {
   position: absolute;
-  top:-2.3%;
+  top: 1.7%;
 }
 
 .step4 {
   position: absolute;
-  top:-2.2%;
+  top: 1.8%;
 }
 
 .step5 {
   position: absolute;
-  top:-2.2%;
+  top: 1.8%;
 }
 
 /*****Player Panel*******/
@@ -163,6 +163,7 @@ img .card {
   border-radius: 15px;
   z-index: 50;
   color: white;
+  align-self: center;
 
 }
 

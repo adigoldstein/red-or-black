@@ -2,56 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7952e08c-2ec8-4293-84a8-640725ea0665" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/styles/main.scss" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/3Dchip_preloader.gif" afterPath="$PROJECT_DIR$/images/3Dchip_preloader.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/Black_Selected.png" afterPath="$PROJECT_DIR$/images/Black_Selected.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/Black_disabled.png" afterPath="$PROJECT_DIR$/images/Black_disabled.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/Black_idle.png" afterPath="$PROJECT_DIR$/images/Black_idle.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/Card_V.png" afterPath="$PROJECT_DIR$/images/Card_V.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/Card_X.png" afterPath="$PROJECT_DIR$/images/Card_X.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/RED_or_BLACK_Mobile_Help.png" afterPath="$PROJECT_DIR$/images/RED_or_BLACK_Mobile_Help.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/RED_or_BLACK_Mobile_bg.jpg" afterPath="$PROJECT_DIR$/images/RED_or_BLACK_Mobile_bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/RED_or_BLACK_Mobile_step_02.png" afterPath="$PROJECT_DIR$/images/RED_or_BLACK_Mobile_step_02.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/RED_or_BLACK_Mobile_step_03.png" afterPath="$PROJECT_DIR$/images/RED_or_BLACK_Mobile_step_03.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/RED_or_BLACK_Mobile_step_04.png" afterPath="$PROJECT_DIR$/images/RED_or_BLACK_Mobile_step_04.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/RED_or_BLACK_Mobile_step_05.png" afterPath="$PROJECT_DIR$/images/RED_or_BLACK_Mobile_step_05.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/RED_or_BLACK_PC_Help.png" afterPath="$PROJECT_DIR$/images/RED_or_BLACK_PC_Help.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/RED_or_BLACK_PC_bg.jpg" afterPath="$PROJECT_DIR$/images/RED_or_BLACK_PC_bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/RED_or_BLACK_PC_step_02.png" afterPath="$PROJECT_DIR$/images/RED_or_BLACK_PC_step_02.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/RED_or_BLACK_PC_step_03.png" afterPath="$PROJECT_DIR$/images/RED_or_BLACK_PC_step_03.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/RED_or_BLACK_PC_step_04.png" afterPath="$PROJECT_DIR$/images/RED_or_BLACK_PC_step_04.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/RED_or_BLACK_PC_step_05.png" afterPath="$PROJECT_DIR$/images/RED_or_BLACK_PC_step_05.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/Red_Selected.png" afterPath="$PROJECT_DIR$/images/Red_Selected.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/Red_disabled.png" afterPath="$PROJECT_DIR$/images/Red_disabled.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/Red_idle.png" afterPath="$PROJECT_DIR$/images/Red_idle.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/autoplay.png" afterPath="$PROJECT_DIR$/images/autoplay.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/cards/Card_Black_01.png" afterPath="$PROJECT_DIR$/images/cards/Card_Black_01.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/cards/Card_Black_02.png" afterPath="$PROJECT_DIR$/images/cards/Card_Black_02.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/cards/Card_Black_03.png" afterPath="$PROJECT_DIR$/images/cards/Card_Black_03.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/cards/Card_Black_04.png" afterPath="$PROJECT_DIR$/images/cards/Card_Black_04.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/cards/Card_Black_05.png" afterPath="$PROJECT_DIR$/images/cards/Card_Black_05.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/cards/Card_Black_06.png" afterPath="$PROJECT_DIR$/images/cards/Card_Black_06.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/cards/Card_Red_01.png" afterPath="$PROJECT_DIR$/images/cards/Card_Red_01.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/cards/Card_Red_02.png" afterPath="$PROJECT_DIR$/images/cards/Card_Red_02.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/cards/Card_Red_03.png" afterPath="$PROJECT_DIR$/images/cards/Card_Red_03.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/cards/Card_Red_04.png" afterPath="$PROJECT_DIR$/images/cards/Card_Red_04.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/cards/Card_Red_05.png" afterPath="$PROJECT_DIR$/images/cards/Card_Red_05.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/cards/Card_Red_06.png" afterPath="$PROJECT_DIR$/images/cards/Card_Red_06.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/cards/Thumbs.db" afterPath="$PROJECT_DIR$/images/cards/Thumbs.db" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/info.png" afterPath="$PROJECT_DIR$/images/info.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/lives_00.png" afterPath="$PROJECT_DIR$/images/lives_00.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/lives_01.png" afterPath="$PROJECT_DIR$/images/lives_01.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/lives_02.png" afterPath="$PROJECT_DIR$/images/lives_02.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/mockups/RED_or_BLACK5a.jpg" afterPath="$PROJECT_DIR$/images/mockups/RED_or_BLACK5a.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/mockups/RED_or_BLACK5b.jpg" afterPath="$PROJECT_DIR$/images/mockups/RED_or_BLACK5b.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/mockups/RED_or_BLACK5c.jpg" afterPath="$PROJECT_DIR$/images/mockups/RED_or_BLACK5c.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/mockups/RED_or_BLACK_mobile_a.jpg" afterPath="$PROJECT_DIR$/images/mockups/RED_or_BLACK_mobile_a.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/mockups/RED_or_BLACK_mobile_b.jpg" afterPath="$PROJECT_DIR$/images/mockups/RED_or_BLACK_mobile_b.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/mockups/RED_or_BLACK_mobile_c.jpg" afterPath="$PROJECT_DIR$/images/mockups/RED_or_BLACK_mobile_c.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/images/mockups/Thumbs.db" afterPath="$PROJECT_DIR$/images/mockups/Thumbs.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redOrBlack.css" afterPath="$PROJECT_DIR$/redOrBlack.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redOrBlack.js" afterPath="$PROJECT_DIR$/redOrBlack.js" />
     </list>
@@ -68,21 +19,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-504">
-              <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="20" selection-end-column="14" />
+            <state relative-caret-position="304">
+              <caret line="28" column="83" lean-forward="false" selection-start-line="28" selection-start-column="83" selection-end-line="28" selection-end-column="83" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="redOrBlack.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="redOrBlack.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/redOrBlack.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="162" column="18" lean-forward="false" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
+            <state relative-caret-position="520">
+              <caret line="94" column="10" lean-forward="false" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -91,8 +42,8 @@
       <file leaf-file-name="redOrBlack.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/redOrBlack.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="303" column="93" lean-forward="false" selection-start-line="303" selection-start-column="93" selection-end-line="303" selection-end-column="93" />
+            <state relative-caret-position="616">
+              <caret line="169" column="25" lean-forward="false" selection-start-line="169" selection-start-column="25" selection-end-line="169" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -110,7 +61,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>consol</find>
+      <find>_step_02.png&quot;</find>
       <find>auto</find>
+      <find>step2</find>
+      <find>step3</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -121,8 +75,8 @@
       <list>
         <option value="$PROJECT_DIR$/redOrBlack.scss" />
         <option value="$PROJECT_DIR$/redOrBlack.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/redOrBlack.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -162,6 +116,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="red-or-black" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="red-or-black" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="red-or-black" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -290,12 +258,12 @@
       <workItem from="1495647655221" duration="4815000" />
       <workItem from="1495702143189" duration="11006000" />
       <workItem from="1495787644515" duration="6608000" />
-      <workItem from="1495869416085" duration="5632000" />
+      <workItem from="1495869416085" duration="12117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50224000" />
+    <option name="totallyTimeSpent" value="56709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1927" height="1038" extended-state="0" />
@@ -330,7 +298,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/redOrBlack.js</url>
-          <line>252</line>
+          <line>258</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -482,26 +450,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/redOrBlack.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="94" column="10" lean-forward="false" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/redOrBlack.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="303" column="93" lean-forward="false" selection-start-line="303" selection-start-column="93" selection-end-line="303" selection-end-column="93" />
+        <state relative-caret-position="616">
+          <caret line="169" column="25" lean-forward="false" selection-start-line="169" selection-start-column="25" selection-end-line="169" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-504">
-          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="20" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redOrBlack.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="162" column="18" lean-forward="false" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
+        <state relative-caret-position="304">
+          <caret line="28" column="83" lean-forward="false" selection-start-line="28" selection-start-column="83" selection-end-line="28" selection-end-column="83" />
           <folding />
         </state>
       </provider>
