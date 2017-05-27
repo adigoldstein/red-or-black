@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7952e08c-2ec8-4293-84a8-640725ea0665" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redOrBlack.css" afterPath="$PROJECT_DIR$/redOrBlack.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redOrBlack.js" afterPath="$PROJECT_DIR$/redOrBlack.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,7 +17,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
@@ -39,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="redOrBlack.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="redOrBlack.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/redOrBlack.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="169" column="25" lean-forward="false" selection-start-line="169" selection-start-column="25" selection-end-line="169" selection-end-column="25" />
+            <state relative-caret-position="400">
+              <caret line="355" column="25" lean-forward="false" selection-start-line="355" selection-start-column="25" selection-end-line="355" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -65,6 +63,7 @@
       <find>auto</find>
       <find>step2</find>
       <find>step3</find>
+      <find>rando</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -74,9 +73,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/redOrBlack.scss" />
-        <option value="$PROJECT_DIR$/redOrBlack.js" />
         <option value="$PROJECT_DIR$/redOrBlack.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/redOrBlack.js" />
       </list>
     </option>
   </component>
@@ -149,10 +148,10 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Adi\Desktop\Create\red-or-black" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Adi\Desktop\Create\red-or-black" />
     </key>
   </component>
@@ -258,12 +257,12 @@
       <workItem from="1495647655221" duration="4815000" />
       <workItem from="1495702143189" duration="11006000" />
       <workItem from="1495787644515" duration="6608000" />
-      <workItem from="1495869416085" duration="12117000" />
+      <workItem from="1495869416085" duration="18684000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56709000" />
+    <option name="totallyTimeSpent" value="63276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1927" height="1038" extended-state="0" />
@@ -298,7 +297,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/redOrBlack.js</url>
-          <line>258</line>
+          <line>327</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -458,18 +457,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redOrBlack.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="169" column="25" lean-forward="false" selection-start-line="169" selection-start-column="25" selection-end-line="169" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="28" column="83" lean-forward="false" selection-start-line="28" selection-start-column="83" selection-end-line="28" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redOrBlack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="355" column="25" lean-forward="false" selection-start-line="355" selection-start-column="25" selection-end-line="355" selection-end-column="25" />
           <folding />
         </state>
       </provider>

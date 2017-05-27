@@ -2,7 +2,77 @@ let cardsPack = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 let lives = 2;
 let step = 1;
 let cardZindexCounter = 10;
+let autoPlayMode = false;
 
+
+function autoPlayGame() {
+  
+
+
+  for (let i = 0; i < 6; i++) {
+
+    let playerGuess = Math.floor((Math.random() * 2));
+    playerGuess === 0 ? playerGuess = 'red' : playerGuess = 'black';
+
+    let res = randonCardChooseAndReturnIfPlayerGuessed(playerGuess);
+    res ? step++ : lives--;
+
+    if (lives === 0 || step === 5) {
+      const gameOver = document.querySelector('.game-over');
+      gameOver.classList.remove('hidden');
+
+      if (lives === 0) {
+        const youLose = document.querySelector('.you-lose');
+        youLose.classList.remove('hidden');
+        break
+      } else {
+        const youWon = document.querySelector('.you-won');
+        youWon.classList.remove('hidden');
+      }
+
+    }
+      
+    
+
+
+  }
+}
+
+function autoPlayMeterDisplay() {
+  console.info('autoplay listener');
+  const redBtn = document.querySelector('.red-btn');
+  redBtn.classList.add('hidden');
+  const redDisabled = document.querySelector('.red-disabled');
+  redDisabled.classList.remove('hidden');
+
+  const blackBtn = document.querySelector('.black-btn');
+  blackBtn.classList.add('hidden');
+  const blackDisabled = document.querySelector('.black-disabled');
+  blackDisabled.classList.remove('hidden');
+
+  autoPlayMode = true
+  const autoPlay = document.querySelector('.auto-play');
+  autoPlay.removeEventListener('click' , autoPlayMeterDisplay);
+  setTimeout(() => {
+    const step2 = document.querySelector('.step2');
+    step2.classList.remove('hidden');
+    setTimeout(() => {
+      const step3 = document.querySelector('.step3');
+      step3.classList.remove('hidden');
+      setTimeout(() => {
+        const step4 = document.querySelector('.step4');
+        step4.classList.remove('hidden');
+        setTimeout(() => {
+          const step5 = document.querySelector('.step5');
+          step5.classList.remove('hidden');
+          autoPlayGame()
+        }, 1000);
+      }, 1000);
+    }, 1000);
+  }, 1000);
+
+
+}
 
 function randonCardChooseAndReturnIfPlayerGuessed(playerGuess) {
   let res = '';
@@ -143,12 +213,11 @@ function initAfterBlack() {
   redDisabled.classList.add('hidden');
 }
 
-function updateMeterAndLives(step,lives) {
+function updateMeterAndLives(step, lives) {
   switch (step) {
     case 2: {
       const step2 = document.querySelector('.step2');
       step2.classList.remove('hidden');
-      console.info('step2happen');
       break
     }
     case 3: {
@@ -209,7 +278,7 @@ function XorVCards(res) {
 }
 
 function checkIfWinOrLose() {
-  if (lives === 0 || step ===5 ) {
+  if (lives === 0 || step === 5) {
     const gameOver = document.querySelector('.game-over');
     gameOver.classList.remove('hidden');
 
@@ -222,7 +291,7 @@ function checkIfWinOrLose() {
     const redDisabled = document.querySelector('.red-disabled');
     redDisabled.classList.remove('hidden');
 
-    if (lives ===0) {
+    if (lives === 0) {
       const youLose = document.querySelector('.you-lose');
       youLose.classList.remove('hidden');
     } else {
@@ -231,7 +300,7 @@ function checkIfWinOrLose() {
     }
 
   }
-  
+
 }
 
 function redBtnClickHandler() {
@@ -248,10 +317,10 @@ function redBtnClickHandler() {
   const res = randonCardChooseAndReturnIfPlayerGuessed('red');
 
   XorVCards(res);
-  console.info('lives: ' , lives);
-  console.info('steps:' , step);
+  console.info('lives: ', lives);
+  console.info('steps:', step);
 
-  updateMeterAndLives(step,lives);
+  updateMeterAndLives(step, lives);
   initAfterRed();
   checkIfWinOrLose()
 }
@@ -268,21 +337,25 @@ function blackBtnClickHandler() {
   const res = randonCardChooseAndReturnIfPlayerGuessed('black');
   console.info('result:', res);
   XorVCards(res);
-  console.info('lives: ' , lives);
-  console.info('steps:' , step);
+  console.info('lives: ', lives);
+  console.info('steps:', step);
 
-  updateMeterAndLives(step,lives);
+  updateMeterAndLives(step, lives);
   initAfterBlack();
   checkIfWinOrLose()
 }
 
 function initForNewGame() {
-  console.info('init4newgame');
+  if (autoPlayMode) {
+    const autoPlay = document.querySelector('.auto-play');
+    autoPlay.addEventListener('click', autoPlayMeterDisplay);
+  }
   const elementsToHide = document.querySelectorAll('.init-hidden');
   elementsToHide.forEach((elem) => {
     elem.classList.add('hidden');
+    autoPlayMode = false;
   });
-  
+
   step = 1;
   lives = 2;
   cardsPack = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
@@ -307,7 +380,9 @@ function initGame() {
     elem.classList.add('hidden');
   });
 
-  window.onload = function(){ document.querySelector('.loading-bg').style.display = "none" };
+  window.onload = function () {
+    document.querySelector('.loading-bg').style.display = "none"
+  };
 
   const redBtn = document.querySelector('.red-btn');
   redBtn.addEventListener('click', redBtnClickHandler);
@@ -316,11 +391,11 @@ function initGame() {
   blackBtn.addEventListener('click', blackBtnClickHandler);
 
   const playAgainBtn = document.querySelector('.play-again-btn');
-  playAgainBtn.addEventListener('click', initForNewGame)
+  playAgainBtn.addEventListener('click', initForNewGame);
 
 
-
-
+  const autoPlay = document.querySelector('.auto-play');
+  autoPlay.addEventListener('click', autoPlayMeterDisplay)
 }
 
 initGame();
