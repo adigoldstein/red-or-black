@@ -30,6 +30,8 @@ function autoPlayGame() {
         youWon.classList.remove('hidden');
       }
 
+      initForNewGame()
+
     }
       
     
@@ -50,7 +52,7 @@ function autoPlayMeterDisplay() {
   const blackDisabled = document.querySelector('.black-disabled');
   blackDisabled.classList.remove('hidden');
 
-  autoPlayMode = true
+  autoPlayMode = true;
   const autoPlay = document.querySelector('.auto-play');
   autoPlay.removeEventListener('click' , autoPlayMeterDisplay);
   setTimeout(() => {
