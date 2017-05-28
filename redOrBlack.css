@@ -12,171 +12,238 @@ html, body {
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
-.wrapper {
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  flex-direction: column;
+@media (min-width: 825px) {
+  .wrapper {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+  }
+  .mobile-topbar {
+    display: none;
+  }
+
+  /*.header {*/
+    /*background-color: greenyellow;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+  /*}*/
+
+  .red {
+    color: red;
+  }
+
+  .tutorial {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 800;
+    bottom: -7px;
+
+  }
+
+  .main {
+    position: relative;
+    background: url('images/RED_or_BLACK_PC_bg.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .main h1 {
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;;
+    color: white;
+    font-size: 30px;
+  }
+
+  .loading-bg {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+  }
+
+  .loading-chip {
+    height: 100px;
+    align-self: center;
+
+  }
+
+  /*****Steps******/
+  .step2 {
+    position: absolute;
+    top: 2.1%;
+  }
+
+  .step3 {
+    position: absolute;
+    top: 1.7%;
+  }
+
+  .step4 {
+    position: absolute;
+    top: 1.8%;
+  }
+
+  .step5 {
+    position: absolute;
+    top: 1.8%;
+  }
+
+  /*****Player Panel*******/
+  .red-btn, .red-selected, .red-disabled {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+    left: 31.5vw;
+  }
+
+  .black-btn, .black-selected, .black-disabled {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+    right: 31.5vw;
+  }
+
+  .lives2, .lives1, .lives0 {
+    height: 55px;
+    position: absolute;
+    bottom: 12px;
+    left: 23Vw;
+  }
+
+  .info {
+    height: 65px;
+    position: absolute;
+    bottom: 6px;
+    left: 18.5vw;
+  }
+
+  .auto-play {
+    height: 80px;
+    position: absolute;
+    bottom: -6px;
+    right: 25vw;
+  }
+
+  .card {
+    height: 150px;
+    position: absolute;
+    bottom: 5px;
+    left: 42%;
+  }
+
+  img .card {
+    transition: all 1s linear;
+  }
+
+  .card-moved {
+    transform: translateX(125px)
+  }
+
+  .card-v, .card-x {
+    height: 150px;
+    position: absolute;
+    bottom: 5px;
+    right: 42%;
+    z-index: 30;
+  }
+
+  .game-over {
+    width: 500px;
+    height: 150px;
+    background-color: black;
+    border-radius: 15px;
+    z-index: 50;
+    color: white;
+    align-self: center;
+
+  }
+
+  .you-lose {
+    font-size: 20px;
+    align-self: center;
+
+  }
+
+  .play-again-btn {
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
 }
 
-.header {
-  background-color: greenyellow;
-  display: flex;
-  justify-content: center;
-}
+@media (max-width: 824px) {
+  .mobile-topbar {
+    width: 100%;
+    background-color: black;
+    height: 60px;
+  }
 
-.red {
-  color: red;
-}
-.tutorial {
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  z-index: 800;
-  bottom: -7px;
+  h1 {
+    color: white;
+  }
 
-}
-.main {
-  position: relative;
-  background: url('images/RED_or_BLACK_PC_bg.jpg');
-  width: 100%;
-  height: 100vh;
-  background-size: cover ;
-  background-repeat: no-repeat;
-  background-position:  50% 0 ;
-  display: flex;
-  justify-content: center;
-}
+  .wrapper {
+    background-color: black;
+  }
 
- .main h1 {
-   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;;
-   color: white;
-   font-size:30px;
- }
+  .main {
+    position: relative;
+    background: url('images/RED_or_BLACK_Mobile_bg.jpg');
 
- .loading-bg {
-   width: 100%;
-   height: 100%;
-   background-color:  rgba(0, 0, 0, 0.8);
-   z-index: 1000;
-   display: flex;
-   justify-content: center;
-   position: absolute;
- }
- .loading-chip {
-   height: 100px;
-   align-self: center;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    display: flex;
+    justify-content: center;
+  }
 
- }
+  .red-btn {
+    height: 140px;
+    position: absolute;
+    bottom: 0px;
+    left: 16%;
+  }
+  .black-btn {
+    height: 140px;
+    position: absolute;
+    bottom: 0px;
+    right: 16%;
+  }
+  .lives2 {
+    height: 40px;
+    position: absolute;
+    top: -40px;
+    right: 33%;
+  }
+  .auto-play {
+    height: 60px;
+    position: absolute;
+    top: -48px;
+    right: 20%;
 
- /*****Steps******/
-
-.step2 {
-  position: absolute;
-  top: 2.1%;
-}
-
-.step3 {
-  position: absolute;
-  top: 1.7%;
-}
-
-.step4 {
-  position: absolute;
-  top: 1.8%;
-}
-
-.step5 {
-  position: absolute;
-  top: 1.8%;
-}
-
-/*****Player Panel*******/
-
-.red-btn, .red-selected, .red-disabled{
-  height: 150px;
-  width: 150px;
-  position: absolute;
-  bottom: 0;
-  left: 31.5vw;
-}
-
-
-.black-btn, .black-selected, .black-disabled{
-  height: 150px;
-  width: 150px;
-  position: absolute;
-  bottom: 0;
-  right: 31.5vw;
-}
-
-
-.lives2, .lives1, .lives0 {
-  height: 55px;
-  position: absolute;
-  bottom: 12px;
-  left: 23Vw;
-}
-
-.info {
-  height: 65px;
-  position: absolute;
-  bottom: 6px;
-  left: 18.5vw;
-}
-.auto-play {
-  height: 80px;
-  position: absolute;
-  bottom: -6px;
-  right: 25vw;
-}
-
-.card {
-  height: 150px;
-  position: absolute;
-  bottom: 5px;
-  left: 42%;
-}
-img .card {
-  transition: all 1s linear;
-}
-.card-moved {
-  transform: translateX(125px)
-}
-
-.card-v, .card-x {
-  height: 150px;
-  position: absolute;
-  bottom: 5px;
-  right: 42%;
-  z-index: 30;
-}
-
-.game-over {
-  width: 500px;
-  height: 150px;
-  background-color: black;
-  border-radius: 15px;
-  z-index: 50;
-  color: white;
-  align-self: center;
-
-}
-
-.you-lose {
-  font-size:20px;
-  align-self: center;
-
-}
-
-.play-again-btn {
-  width: 150px;
-  height: 40px;
-  background-color: black;
-  color: white;
-  cursor: pointer;
+  }
+  .info {
+    height: 60px;
+    position: absolute;
+    top: -50px;
+    right: 43%;
+  }
 }

@@ -305,6 +305,9 @@ function checkIfWinOrLose() {
 
 function redBtnClickHandler() {
 
+  const autoPlay = document.querySelector('.auto-play');
+  autoPlay.removeEventListener('click', autoPlayClickHandler);
+
   const redBtn = document.querySelector('.red-btn');
   redBtn.classList.add('hidden');
   const redSelected = document.querySelector('.red-selected');
@@ -326,6 +329,10 @@ function redBtnClickHandler() {
 }
 
 function blackBtnClickHandler() {
+
+  const autoPlay = document.querySelector('.auto-play');
+  autoPlay.removeEventListener('click', autoPlayClickHandler);
+
   const blackBtn = document.querySelector('.black-btn');
   blackBtn.classList.add('hidden');
   const blackSelected = document.querySelector('.black-selected');
@@ -383,6 +390,10 @@ function initGame() {
   window.onload = function () {
     document.querySelector('.loading-bg').style.display = "none"
   };
+
+  // const tut = document.querySelector('.tutorial');
+  // console.info(tut);
+  // tut.addEventListener('click', () => { tut.classList.add('hidden'); console.info(tut);});
 
   const redBtn = document.querySelector('.red-btn');
   redBtn.addEventListener('click', redBtnClickHandler);
