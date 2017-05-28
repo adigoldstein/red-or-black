@@ -23,16 +23,16 @@ html, body {
     width: 100%;
     flex-direction: column;
   }
+
   .mobile-topbar {
     display: none;
   }
 
   /*.header {*/
-    /*background-color: greenyellow;*/
-    /*display: flex;*/
-    /*justify-content: center;*/
+  /*background-color: greenyellow;*/
+  /*display: flex;*/
+  /*justify-content: center;*/
   /*}*/
-
   .red {
     color: red;
   }
@@ -144,10 +144,8 @@ html, body {
     position: absolute;
     bottom: 5px;
     left: 42%;
-  }
-
-  img .card {
-    transition: all 1s linear;
+    transform: translateX(0px);
+    transition: all 2s linear;
   }
 
   .card-moved {
@@ -173,7 +171,7 @@ html, body {
 
   }
 
-  .you-lose {
+  .you-lose, .you-won {
     font-size: 20px;
     align-self: center;
 
@@ -215,35 +213,88 @@ html, body {
     justify-content: center;
   }
 
-  .red-btn {
+  .red-btn, .red-disabled, .red-selected {
     height: 140px;
     position: absolute;
     bottom: 0px;
     left: 16%;
   }
-  .black-btn {
+
+  .black-btn, .black-disabled, .black-selected {
     height: 140px;
     position: absolute;
     bottom: 0px;
     right: 16%;
   }
-  .lives2 {
+
+  .lives2, .lives1, .lives0 {
     height: 40px;
     position: absolute;
     top: -40px;
     right: 33%;
   }
+
   .auto-play {
     height: 60px;
     position: absolute;
     top: -48px;
     right: 20%;
-
   }
+
   .info {
     height: 60px;
     position: absolute;
     top: -50px;
     right: 43%;
   }
+
+  .card {
+    height: 165px;
+    position: absolute;
+    bottom: 0;
+    left: 34.5%;
+  }
+
+  .card-moved {
+    transform: translateX(125px)
+  }
+
+  .card-v, .card-x {
+    height: 165px;
+    position: absolute;
+    bottom: 0;
+    right: 34%;
+    z-index: 30;
+  }
+
+  .step2 {
+    position: absolute;
+    top: 15px;
+  }
+
+  .step3 {
+    position: absolute;
+    top: 14px;
+  }
+
+  .step4 {
+    position: absolute;
+    top: 12px;
+  }
+
+  .step5 {
+    position: absolute;
+    top: 51px;
+  }
+
+  .game-over {
+    width: 500px;
+    height: 150px;
+    background-color: black;
+    border-radius: 15px;
+    z-index: 50;
+    color: white;
+    align-self: center;
+  }
+
 }
