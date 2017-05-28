@@ -6,8 +6,6 @@ let autoPlayMode = false;
 
 
 function autoPlayGame() {
-  
-
 
   for (let i = 0; i < 6; i++) {
 
@@ -28,19 +26,18 @@ function autoPlayGame() {
       } else {
         const youWon = document.querySelector('.you-won');
         youWon.classList.remove('hidden');
+        break
       }
 
       initForNewGame()
 
     }
-      
-    
 
 
   }
 }
 
-function autoPlayMeterDisplay() {
+function autoPlayClickHandler() {
   console.info('autoplay listener');
   const redBtn = document.querySelector('.red-btn');
   redBtn.classList.add('hidden');
@@ -54,7 +51,7 @@ function autoPlayMeterDisplay() {
 
   autoPlayMode = true;
   const autoPlay = document.querySelector('.auto-play');
-  autoPlay.removeEventListener('click' , autoPlayMeterDisplay);
+  autoPlay.removeEventListener('click', autoPlayClickHandler);
   setTimeout(() => {
     const step2 = document.querySelector('.step2');
     step2.classList.remove('hidden');
@@ -93,98 +90,99 @@ function randonCardChooseAndReturnIfPlayerGuessed(playerGuess) {
       res = false;
     }
   }
-
-  switch (cardNum) {
-    case 0: {
-      const card0 = document.querySelector('.card0');
-      card0.classList.remove('hidden');
-      card0.classList.add('card-moved');
-      card0.style.zIndex = cardZindexCounter;
-      break
-    }
-    case 1: {
-      const card1 = document.querySelector('.card1');
-      card1.classList.remove('hidden');
-      card1.classList.add('card-moved');
-      card1.style.zIndex = cardZindexCounter;
-
-
-      break
-    }
-    case 2: {
-      const card2 = document.querySelector('.card2');
-      card2.classList.remove('hidden');
-      card2.classList.add('card-moved');
-      card2.style.zIndex = cardZindexCounter;
+  if (!autoPlayMode) {
+    switch (cardNum) {
+      case 0: {
+        const card0 = document.querySelector('.card0');
+        card0.classList.remove('hidden');
+        card0.classList.add('card-moved');
+        card0.style.zIndex = cardZindexCounter;
+        break
+      }
+      case 1: {
+        const card1 = document.querySelector('.card1');
+        card1.classList.remove('hidden');
+        card1.classList.add('card-moved');
+        card1.style.zIndex = cardZindexCounter;
 
 
-      break
-    }
-    case 3: {
-      const card3 = document.querySelector('.card3');
-      card3.classList.remove('hidden');
-      card3.classList.add('card-moved');
-      card3.style.zIndex = cardZindexCounter;
-      break
-    }
-    case 4: {
-      const card4 = document.querySelector('.card4');
-      card4.classList.remove('hidden');
-      card4.classList.add('card-moved');
-      card4.style.zIndex = cardZindexCounter;
-      break
-    }
-    case 5: {
-      const card5 = document.querySelector('.card5');
-      card5.classList.remove('hidden');
-      card5.classList.add('card-moved');
-      card5.style.zIndex = cardZindexCounter;
-      break
-    }
-    case 6: {
-      const card6 = document.querySelector('.card6');
-      card6.classList.remove('hidden');
-      card6.classList.add('card-moved');
-      card6.style.zIndex = cardZindexCounter;
-      break
-    }
-    case 7: {
-      const card7 = document.querySelector('.card7');
-      card7.classList.remove('hidden');
-      card7.classList.add('card-moved');
-      card7.style.zIndex = cardZindexCounter;
-      break
-    }
-    case 8: {
-      const card8 = document.querySelector('.card8');
-      card8.classList.remove('hidden');
-      card8.classList.add('card-moved');
-      card8.style.zIndex = cardZindexCounter;
-      break
-    }
-    case 9: {
-      const card9 = document.querySelector('.card9');
-      card9.classList.remove('hidden');
-      card9.classList.add('card-moved');
-      card9.style.zIndex = cardZindexCounter;
-      break
-    }
-    case 10: {
-      const card10 = document.querySelector('.card10');
-      card10.classList.remove('hidden');
-      card10.classList.add('card-moved');
-      card10.style.zIndex = cardZindexCounter;
-      break
-    }
-    case 11: {
-      const card11 = document.querySelector('.card11');
-      card11.classList.remove('hidden');
-      card11.classList.add('card-moved');
-      card11.style.zIndex = cardZindexCounter;
-      break
-    }
+        break
+      }
+      case 2: {
+        const card2 = document.querySelector('.card2');
+        card2.classList.remove('hidden');
+        card2.classList.add('card-moved');
+        card2.style.zIndex = cardZindexCounter;
 
+
+        break
+      }
+      case 3: {
+        const card3 = document.querySelector('.card3');
+        card3.classList.remove('hidden');
+        card3.classList.add('card-moved');
+        card3.style.zIndex = cardZindexCounter;
+        break
+      }
+      case 4: {
+        const card4 = document.querySelector('.card4');
+        card4.classList.remove('hidden');
+        card4.classList.add('card-moved');
+        card4.style.zIndex = cardZindexCounter;
+        break
+      }
+      case 5: {
+        const card5 = document.querySelector('.card5');
+        card5.classList.remove('hidden');
+        card5.classList.add('card-moved');
+        card5.style.zIndex = cardZindexCounter;
+        break
+      }
+      case 6: {
+        const card6 = document.querySelector('.card6');
+        card6.classList.remove('hidden');
+        card6.classList.add('card-moved');
+        card6.style.zIndex = cardZindexCounter;
+        break
+      }
+      case 7: {
+        const card7 = document.querySelector('.card7');
+        card7.classList.remove('hidden');
+        card7.classList.add('card-moved');
+        card7.style.zIndex = cardZindexCounter;
+        break
+      }
+      case 8: {
+        const card8 = document.querySelector('.card8');
+        card8.classList.remove('hidden');
+        card8.classList.add('card-moved');
+        card8.style.zIndex = cardZindexCounter;
+        break
+      }
+      case 9: {
+        const card9 = document.querySelector('.card9');
+        card9.classList.remove('hidden');
+        card9.classList.add('card-moved');
+        card9.style.zIndex = cardZindexCounter;
+        break
+      }
+      case 10: {
+        const card10 = document.querySelector('.card10');
+        card10.classList.remove('hidden');
+        card10.classList.add('card-moved');
+        card10.style.zIndex = cardZindexCounter;
+        break
+      }
+      case 11: {
+        const card11 = document.querySelector('.card11');
+        card11.classList.remove('hidden');
+        card11.classList.add('card-moved');
+        card11.style.zIndex = cardZindexCounter;
+        break
+      }
+    }
   }
+
   cardsPack.splice(cardNum, 1);
   cardZindexCounter++;
   return res
@@ -350,7 +348,7 @@ function blackBtnClickHandler() {
 function initForNewGame() {
   if (autoPlayMode) {
     const autoPlay = document.querySelector('.auto-play');
-    autoPlay.addEventListener('click', autoPlayMeterDisplay);
+    autoPlay.addEventListener('click', autoPlayClickHandler);
   }
   const elementsToHide = document.querySelectorAll('.init-hidden');
   elementsToHide.forEach((elem) => {
@@ -397,7 +395,7 @@ function initGame() {
 
 
   const autoPlay = document.querySelector('.auto-play');
-  autoPlay.addEventListener('click', autoPlayMeterDisplay)
+  autoPlay.addEventListener('click', autoPlayClickHandler)
 }
 
 initGame();
