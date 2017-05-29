@@ -1,7 +1,6 @@
 # Bug List:
 
-* Tutorial - show+ cover whole screen.
+* Tutorial - show+ cover whole screen. PC and mobile.
 * Card animation
 * BG postioning and all other graphics according to that.
-* Tutorial thing. pc and mobile
 * Game over window
