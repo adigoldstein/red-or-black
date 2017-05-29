@@ -353,10 +353,9 @@ function blackBtnClickHandler() {
 }
 
 function initForNewGame() {
-  if (autoPlayMode) {
     const autoPlay = document.querySelector('.auto-play');
     autoPlay.addEventListener('click', autoPlayClickHandler);
-  }
+
   const elementsToHide = document.querySelectorAll('.init-hidden');
   elementsToHide.forEach((elem) => {
     elem.classList.add('hidden');
