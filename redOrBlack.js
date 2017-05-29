@@ -38,7 +38,7 @@ function autoPlayGame() {
 }
 
 function autoPlayClickHandler() {
-  console.info('autoplay listener');
+
   const redBtn = document.querySelector('.red-btn');
   redBtn.classList.add('hidden');
   const redDisabled = document.querySelector('.red-disabled');
@@ -320,8 +320,6 @@ function redBtnClickHandler() {
   const res = randonCardChooseAndReturnIfPlayerGuessed('red');
 
   XorVCards(res);
-  console.info('lives: ', lives);
-  console.info('steps:', step);
 
   updateMeterAndLives(step, lives);
   initAfterRed();
@@ -342,11 +340,8 @@ function blackBtnClickHandler() {
   const redDisabled = document.querySelector('.red-disabled');
   redDisabled.classList.remove('hidden');
   const res = randonCardChooseAndReturnIfPlayerGuessed('black');
-  console.info('result:', res);
-  XorVCards(res);
-  console.info('lives: ', lives);
-  console.info('steps:', step);
 
+  XorVCards(res);
   updateMeterAndLives(step, lives);
   initAfterBlack();
   checkIfWinOrLose()
@@ -390,9 +385,9 @@ function initGame() {
     document.querySelector('.loading-bg').style.display = "none"
   };
 
-  // const tut = document.querySelector('.tutorial');
-  // console.info(tut);
-  // tut.addEventListener('click', () => { tut.classList.add('hidden'); console.info(tut);});
+  const tut = document.querySelector('.tutorial');
+
+  tut.addEventListener('click', () => { tut.classList.add('hidden');});
 
   const redBtn = document.querySelector('.red-btn');
   redBtn.addEventListener('click', redBtnClickHandler);
@@ -405,7 +400,10 @@ function initGame() {
 
 
   const autoPlay = document.querySelector('.auto-play');
-  autoPlay.addEventListener('click', autoPlayClickHandler)
+  autoPlay.addEventListener('click', autoPlayClickHandler);
+  
+  const info = document.querySelector('.info');
+  info.addEventListener('click' , ()=> {tut.classList.remove('hidden');})
 }
 
 initGame();

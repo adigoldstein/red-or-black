@@ -28,11 +28,7 @@ html, body {
     display: none;
   }
 
-  /*.header {*/
-  /*background-color: greenyellow;*/
-  /*display: flex;*/
-  /*justify-content: center;*/
-  /*}*/
+
   .red {
     color: red;
   }
@@ -148,7 +144,7 @@ html, body {
     transition: all 2s linear 1s;
   }
 
-  .card-moved {
+  .card.card-moved {
     transform: translateX(125px)
   }
 
@@ -162,30 +158,42 @@ html, body {
 
   .game-over {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
     margin-left: -300px;
     width: 500px;
-    height: 150px;
+    height: 200px;
     background-color: black;
     border-radius: 15px;
     z-index: 50;
-    color: white;
+    /*color: white;*/
     align-self: center;
 
   }
 
   .you-lose, .you-won {
     font-size: 20px;
-
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    color: lawngreen;
 
   }
 
   .play-again-btn {
+    font-size: 19px;
     width: 150px;
     height: 40px;
     background-color: black;
     color: white;
     cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding-top: 17px;
+    margin:  0 auto;
+
   }
 }
 
@@ -200,6 +208,10 @@ html, body {
     color: white;
   }
 
+  .red {
+    color: red;
+  }
+
   .wrapper {
     background-color: black;
   }
@@ -207,7 +219,6 @@ html, body {
   .main {
     position: relative;
     background: url('images/RED_or_BLACK_Mobile_bg.jpg');
-
     height: 100vh;
     background-size: contain;
     background-repeat: no-repeat;

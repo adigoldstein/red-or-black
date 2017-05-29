@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7952e08c-2ec8-4293-84a8-640725ea0665" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redOrBlack.css" afterPath="$PROJECT_DIR$/redOrBlack.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redOrBlack.js" afterPath="$PROJECT_DIR$/redOrBlack.js" />
     </list>
@@ -23,8 +24,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="32" column="83" lean-forward="false" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="83" />
+            <state relative-caret-position="528">
+              <caret line="64" column="16" lean-forward="true" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -33,8 +34,8 @@
       <file leaf-file-name="redOrBlack.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/redOrBlack.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="285" column="14" lean-forward="false" selection-start-line="285" selection-start-column="14" selection-end-line="285" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -44,8 +45,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <first_editor relative-caret-position="168">
+                <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -56,8 +57,8 @@
       <file leaf-file-name="redOrBlack.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/redOrBlack.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="355" column="19" lean-forward="false" selection-start-line="355" selection-start-column="19" selection-end-line="355" selection-end-column="19" />
+            <state relative-caret-position="577">
+              <caret line="388" column="0" lean-forward="false" selection-start-line="388" selection-start-column="0" selection-end-line="388" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -84,6 +85,11 @@
       <find>tut</find>
       <find>mov</find>
       <find>removeE</find>
+      <find>console</find>
+      <find>inf</find>
+      <find>game</find>
+      <find>over</find>
+      <find>gam</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -96,6 +102,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/redOrBlack.js" />
         <option value="$PROJECT_DIR$/redOrBlack.css" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -265,12 +272,12 @@
       <workItem from="1495787644515" duration="6608000" />
       <workItem from="1495869416085" duration="19279000" />
       <workItem from="1495954879559" duration="16474000" />
-      <workItem from="1496039964288" duration="1282000" />
+      <workItem from="1496039964288" duration="11139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81627000" />
+    <option name="totallyTimeSpent" value="91484000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1038" extended-state="0" />
@@ -305,7 +312,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/redOrBlack.js</url>
-          <line>330</line>
+          <line>328</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -505,26 +512,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redOrBlack.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="355" column="19" lean-forward="false" selection-start-line="355" selection-start-column="19" selection-end-line="355" selection-end-column="19" />
+        <state relative-caret-position="528">
+          <caret line="64" column="16" lean-forward="true" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/redOrBlack.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="32" column="83" lean-forward="false" selection-start-line="32" selection-start-column="72" selection-end-line="32" selection-end-column="83" />
+        <state relative-caret-position="577">
+          <caret line="388" column="0" lean-forward="false" selection-start-line="388" selection-start-column="0" selection-end-line="388" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/redOrBlack.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+        <state relative-caret-position="289">
+          <caret line="285" column="14" lean-forward="false" selection-start-line="285" selection-start-column="14" selection-end-line="285" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -532,8 +539,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <first_editor relative-caret-position="168">
+            <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
             <folding />
           </first_editor>
           <second_editor />
