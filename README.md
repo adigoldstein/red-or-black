@@ -1,8 +1,9 @@
 # Bug List:
 
-* When adding steps, page Width increasing. 
-* Tutorial -  mobile.
-* Card animation - When showing new card, translateX is done, but no animation.
 * Main BG positioning and all other graphics according to that.
-* Game over window
+* When adding steps, page become wider. 
+* Card animation - When showing new card, translateX is done, but there is no animation.
+* Tutorial -  on mobile view.
+
+
 
